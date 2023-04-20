@@ -1,0 +1,172 @@
+* {
+    cursor: url("cursor.cur"), auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 1000;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 1000;
+}
+
+h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 15px;
+  font-weight: 50px;
+  margin-left: 800px;
+  margin-top: 35px;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: #eecd2b;
+  border-radius: 10px;
+  display: flex;
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  padding: 5px;
+  background-color: #eecd2b;
+  border-radius: 10px;
+}
+
+#twitter:hover {
+  filter: brightness(60%);
+}
+
+#instagram:hover {
+  filter: brightness(60%);
+}
+
+#tiktok:hover {
+  filter: brightness(60%);
+}
+
+#youtube:hover {
+  filter: brightness(60%);
+}
+
+#facebook:hover {
+  filter: brightness(60%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #bb81c1;
+    color: #f4f19c;
+    
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  z-index: 10;
+}
+
+#responsive_img {
+  position: relative;
+  z-index: 2;
+}
+
+.bee-gif {
+  width: 60%;
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+.bee-gif-2 {
+  width: 60%;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  transform: translateX(-50%);
+  z-index: 4;
+  transform: scaleX(-1);
+}
+
+.centered-text {
+  position: relative;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: #f4f19c;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#responsive_img:hover {
+    filter: brightness(50%);
+}
+
+div.gallery {
+    width: 100%;
+    margin: 10px;
+}
+  
+  div.gallery:hover {
+    filter: brightness(50%);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .responsive {
+      width: 60%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
